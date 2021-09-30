@@ -1,0 +1,5 @@
+notes=open("bc.txt", "r+")
+str=notes.read(2)
+print ("read string is :",str)
+notes.write("you have to dream before the dreams come true")
+notes.close()
