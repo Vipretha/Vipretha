@@ -1,0 +1,17 @@
+def markdetails(name,dpt,M1,M2,M3,M4,M5):
+    print("name :",name)
+    print("dpt :",dpt)
+    print("M1 :",M1)
+    print("M2 :",M2)
+    print("M3 :",M3)
+    print("M4 :",M4)
+    print("M5 :",M5)
+lim=int(input("enter the limit :"))
+for i in range(lim):
+    name=input("enter the name :") 	
+    dpt=input("enter the dpt :") 
+    M1=input("enter the M1 :")
+    M2=input("enter the M2 :")
+    M3=input("enter the M3 :")
+    M4=input("enter the M4 :")
+    M5=input("enter the M5 :")
